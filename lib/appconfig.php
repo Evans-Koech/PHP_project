@@ -16,7 +16,6 @@ define("LOGOUT_REDIRECT", "index.php"); // Redirect the user to this page after 
 define("DB_HOST","localhost"); // Hostname
 define("DB_NAME","three09books"); // Database
 define("DB_USER","root"); // Username
-define("DB_PASS","sarahn9347"); // Password
 define("TBL_USERS", "userauth"); // Table name
 
 /* User levels. Add more levels here */
