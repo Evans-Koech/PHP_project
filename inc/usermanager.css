@@ -1,0 +1,142 @@
+
+      body{
+
+      width:100%;
+      
+      }
+.main{
+margin-left:150px;
+margin-right:150px;
+/*border:solid red;*/
+height:900px;
+
+
+
+}
+      .left{
+      width:40%;
+      float:left;
+     margin-top:40px;
+margin-left:10px;
+
+      
+      }
+      .right{
+      width:40%;
+      float:left;
+	margin-top:40px;
+      
+      }
+
+        .name{
+            
+            margin-bottom: 10px;
+            height: 30px;
+         
+           width: 360px; 
+        }
+.name:hover{
+
+border-color:#53addf;
+
+}
+        .button1{
+            
+            margin-top: 10px;
+            width: 367px;
+	    height:45px;
+            background-color:#53addf; 
+  border: medium none #53addf;
+    border-radius: 14px;
+	font-size:24px;
+color:white;   
+            
+        }
+
+.select{
+
+float:left;
+}
+
+.search{
+
+/*float:left;*/
+width: 150px;
+
+}
+
+.search-btn{
+	 background: #53addf none repeat scroll 0 0;
+    border: medium none #53addf;
+    height: 25px;
+}
+.table{
+
+/* border: medium solid #0b19bf;*/
+    width: 580px;
+
+}
+        .td{
+       
+           border-bottom:solid #e9e9e9 1px;
+        }
+        /*.fname{
+            
+            width:444px;
+            margin-left:10px;
+            color:black;
+            
+        }*/
+
+     .green{
+     lor: white;
+height: 24px;
+width: 67px;
+border: medium none green;
+padding: 0px;
+margin-right: 0px;
+font-size: 12px;
+border-radius: 2px;
+    }
+
+    .green:hover {
+      background: limegreen;
+      color: white;
+    }
+
+      .red{
+      
+      background-color:#f21523;
+    /*color:white;*/
+      height: 24px;
+  width: 67px;
+margin-right:0px;
+border: medium none #f21523;
+          font-size: 12px;
+      }
+
+      .ID{
+width: 40px;
+font-size: 12px;
+      }
+
+      .user-name{
+width: 150px;
+font-size: 12px;
+      }
+      .email{
+width: 150px;
+font-size: 12px;
+      }
+      .level{
+width: 70px;
+font-size: 12px;
+      }
+      .fname{
+width: 150px;
+font-size: 12px;
+      }
+      .active{
+        width: 10px;
+        font-size: 12px;
+      }

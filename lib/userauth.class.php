@@ -440,8 +440,8 @@ class UserAuth
     	foreach ($data as $k => $v )
 			$data[$k] = "'".$this->escape($v)."'";
 		$sql = "INSERT INTO ".TBL_USERS." (`".implode('`, `', array_values($this->table))."`) VALUES (".implode(", ", $data).")";
-		echo $sql;
 		$result = $this->db->query($sql);
+		echo $sql;
 		// If the user is inserted successfully
 		if( $this->db->affected_rows == 1 ) {
 			// If the user should be auto activated, activate him and ask him to login

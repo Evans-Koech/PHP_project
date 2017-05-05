@@ -1,5 +1,8 @@
 <?php
 require_once('lib/userauth.class.php');
+require_once('lib/form.class.php');
+require_once('lib/validation.class.php');
+require_once('lib/inputfilter.class.php');
 require_once('app/configurator.class.php');
 require_once('app/inventory.class.php');
 require_once('app/payables.class.php');
@@ -8,6 +11,7 @@ require_once('app/pubactions.class.php');
 require_once('app/reports.class.php');
 require_once('app/userprefs.class.php');
 require_once('app/utilities.class.php');
+
 
 // Logout
 if(isset($_GET['do']) && $_GET['do'] == 'logout') {
@@ -115,7 +119,7 @@ class WorkPage extends Reporter{
       $s .= $this->ShowMenuItem('Configuration', CONFIGURATE , 'Item Types^Units^Book Prices^Subjects^Class Year');
       $s .= $this->ShowMenuItem('Reports'      , REPORTING   , 'Reports');
       $s .= $this->ShowMenuItem('Payables'     , PAYABLES    , 'Accounts Payables');
-      $s .= $this->ShowMenuItem('User Prefs'   , USERPREFS   , 'User Preferences' );
+      $s .= $this->ShowMenuItem('User Prefs'   , USERPREFS   , 'User Preferences^User Manager' );
       $s .= '</tr></table>';
       return $s;
    }

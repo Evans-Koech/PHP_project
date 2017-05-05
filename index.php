@@ -44,6 +44,8 @@ else {
 	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
 	<title>309 Books</title>
 	<link rel="stylesheet" type="text/css" href="inc/style1.css" />
+	<link rel="stylesheet" type="text/css" href="inc/style.css" />
+	<link rel="stylesheet" type="text/css" href="inc/usermanager.css" />
 	<script type="text/javascript" src="inc/sha1.js"></script>
 	<script type="text/javascript" src="inc/validation.js"></script>	
 </head>
